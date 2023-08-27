@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h2>ArT</h2>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">HISTORY</a></li>
+          <li>
+            <a href="">ARTWORK</a>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Dropdown
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </li>
+          <li><a href="">PAINTING</a></li>
+          <li><a href="">POPULAR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="”Cart-Container”"></div>
+  </body>
+</html>
+
+.burger{
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  float: right;
+ }
+ .line{
+  width: 25px;
+  height: 3px;
+  background-color: red;
+  margin: 3px 0;
+ }
+ @media screen and (max-width:768px){
+  .navlinks{
+  display: none;
+   }
+  
+  .burger{
+      display: flex;
+  }
+}
+
+</style>
+</head>
+<body>
+<div class="top">
+  <nav class="box">
+  <div class ="logo">
+<img src="images/lavender.jpeg" >
+</div>
+
+<ul class="navlinks">
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+<div class="burger">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div class="row">
+<img src="images/one.jpeg" alt="">
+<div class="left"><</div>
+<div class="right">></div>
+</div>
+
+<div class="container">
+<div class="down">
+<img src="images/tulip.jpeg" alt="" height="50%" width="50%">
+</div>
+<div class="dowm">
+
+<p>This is a beautiful picture
+ <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga eveniet sapiente officia quis voluptatem nesciunt, optio est, minus officiis fugit sint aut hic! Nesciunt unde labore iure deserunt sapiente.
+ </p>
+</p>
+</div>
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav</title>
+    <style>
+      ul {
+        list-style: none;
+        float: right;
+      }
+
+      li {
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+      }
+      .box {
+        background-color: antiquewhite;
+        padding: 2px;
+        margin: 2px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a:hover {
+        background-color: rgba(161, 74, 74, 0.489);
+      }
+      img {
+        height: 250%;
+        width: 100%;
+      }
+
+      .left {
+        position: absolute;
+        font-size: 24px;
+        top: 50%;
+        color: aqua;
+        background-color: beige;
+        padding: 2px;
+      }
+      .right {
+        position: absolute;
+        font-size: 24px;
+        top: 50%;
+        color: aqua;
+        right: 0%;
+        background-color: beige;
+        padding: 2px;
+      }
+      .left:hover {
+        background-color: rgba(161, 74, 74, 0.489);
+      }
+
+      .right:hover {
+        background-color: rgba(161, 74, 74, 0.489);
+      }
+      .row {
+        position: relative;
+      }
+
+      /* .left,.right{
+            top: 50%;
+            font-size: 22px;
+
+        } */
+      .logo img {
+        width: 50px;
+        height: 50px;
+        float: le;
+      }
+      .row img {
+        height: 100%;
+        width: 100%;
+      }
+      .image-container {
+    border: 1px solid #ccc;
+    height: 100%;
+    width: 100%;
+  }
+
+  .image {
+    width: 99%;
+    height: 50%;
+    /* margin-right: 15px;  */
+  } 
+
+  .description {
+   float: left;
+   width: 50%;
+  }
+  img{
+       height: 100%;
+       width: 100%;
+  }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <nav class="box">
+        <div class="logo">
+          <img src="photo.jpg" />
+          <ul>
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="news.asp">News</a></li>
+            <li><a href="contact.asp">Contact</a></li>
+            <li><a href="about.asp">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row">
+      <img src="pic.png" alt="" />
+      <div class="left"><</div>
+      <div class="right">></div>
+    </div>
+    <div class="image-container">
+      <div class="description"> <img class="image" src="okok.jpeg" alt="Image"></div>
+       <div class="description">
+         <h2>Image Description</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis modi nam repellat dolor sit amet consectetur adipisicing elit. Perspiciatis modi nam repellatdolor sit amet consectetur adipisicing elit. Perspiciatis modiit. Perspiciatis modi nam repellat dolor sit amet consectetur adipisicing elit. Perspiciatis modi nam repellatdolor sit amet consectetur adipisicing elit. Perspiciait. Perspiciatis modi nam repellat dolor sit amet consectetur adipisicing elit. Perspiciatis modi nam repellatdolor sit amet consectetur adipisicing elit. Perspiciait. Perspiciatis modi nam repellat dolor sit amet consectetur adipisicing elit. Perspiciatis modi nam repellatdolor sit amet consectetur adipisicing elit. Perspicia nam repellatdolor sit amet consectetur adipisicing elit. Perspiciatis modi nam repellat numquam quaerat id reprehenderit laudantium similique eligendi non esse dignissimos soluta animi recusandae accusamus perferendis quas minus rem labore, obcaecati incidunt exercitationem error maxime? Dolorum, odit perferendis? Harum ipsum consequatur pariatur ab hic corrupti possimus repellat magni debitis nostrum reiciendis, natus ducimus amet cum totam? Ex nesciunt sit asperiores tempore repellat itaque ipsa ipsam veniam unde quidem ad quia velit, odit et pariatur dolores deserunt enim quae neque exercitationem recusandae iusto consectetur ipsum culpa. Et, expedita praesentium totam culpa adipisci deserunt asperiores maxime numquam fugit a, sequi ad..</p>
+       </div>
+     </div>
+
+    </div>
+  </body>
+</html>

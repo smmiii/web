@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+.container{
+       width: 100%;
+       background-image: url(baecci.jpeg);
+       background-position: center;
+       background-size: cover;
+       height: 100vh;
+}
+.navbar{
+       width: 1200px;
+       height: 75px;
+       margin: auto;
+}
+
+.icon{
+       width: 200px;
+       height: 70px;
+       float: left;
+}
+
+.logo{
+       color: #213555;
+       font-size: 35px;
+    font-family: Arial;
+    padding-left: 1px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 10px
+}
+.menu{
+       width: 400px;
+       float:left;
+       height: 70px;
+}
+
+ul{
+       float:left;
+       display: flex;
+       justify-content: center;
+       align-items: center; 
+
+}
+ul li{
+       list-style: none;
+       margin-left: 52px;
+       margin-top: 27px;
+       font-size: 15px;
+}
+ul li a{
+       text-decoration: none;
+       color: #FFE6C7;
+       font-family: Arial;
+       font-weight: bold;
+       transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+       color:#FF6000 ;
+}
+.dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #f9f9f9;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+     }
+     
+     .dropdown-content a {
+       float: none;
+       color: black;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       text-align: left;
+     }
+     
+     .dropdown-content a:hover {
+       background-color: #ddd;
+     }
+     
+     .dropdown:hover .dropdown-content {
+       display: block;}
